@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>ABCS of CSS</title>
+</head>
+<body>
+
+    <div class="section flex flex-row justify-content-center align-items-center">
+        <p>Welcome to the Interactive ABCs of CSS Technology learning Website</p>
+    </div>
+    <div class="section flex flex-row justify-content-center align-items-center">
+        Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters
+    </div>
+
+    <div class="section flex flex-row justify-content-center align-items-center">
+        <div class="flex flex-column justify-content-center align-items-center section">
+            <img src="images/css-letter-a.png" alt="1st of image of CSS rules" class="hidden img col-12" id="imageA">
+            <button id="hideA" type="button" class="hidden">Hide A</button>
+            <button id="showA" type="button">Show A</button>
+        </div>
+        <div class="flex flex-column justify-content-center align-items-center section">
+            <img src="images/css-letter-b.png" alt="2nd of image of CSS rules" class="hidden img col-12" id="imageB">
+            <button id="hideB" type="button" class="hidden">Hide B</button>
+            <button id="showB" type="button">Show B</button>
+        </div>
+        <div class="flex flex-column justify-content-center align-items-center section">
+            <img src="images/css-letter-c.png" alt="3rd of image of CSS rules" class="hidden img col-12" id="imageC">
+            <button id="hideC" type="button" class="hidden">Hide C</button>
+            <button id="showC" type="button">Show C</button>
+        </div>
+    </div>
+
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
